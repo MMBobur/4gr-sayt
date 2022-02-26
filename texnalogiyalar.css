@@ -1,0 +1,15 @@
+.texnalogiyalar {
+    font-family: sans-serif;
+    margin: 1% 10%;
+}
+
+.section_1 {
+    display: grid;
+    grid-template-columns: 40% 30% 25%;
+    grid-gap: 30px;
+    padding: 20px 0;
+}
+
+.texnalogiyalar img {
+    width: 100%;
+}
