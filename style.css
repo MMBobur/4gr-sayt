@@ -1,21 +1,41 @@
-*{margin: 0; padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.navbar{
-    width: 100%;
-    height: 80px;
-    background-color: brown;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: brown;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
-.navbar ul{
-    width: 50%;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.navbar ul {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
-.navbar ul li a{
-    color: white;
+.navbar ul li a {
+  color: white;
+}
+
+.dunyo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dunyo .card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #333;
+  box-shadow: 0 .5rem 1rem #ccc;
+  border-radius: 6px;
+  background-color: wheat;
+  padding: 20px;
 }
